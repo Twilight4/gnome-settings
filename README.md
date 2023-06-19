@@ -39,9 +39,13 @@ dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
 ```
 go to settings > multitasking and change workspaces to fixed number of workspaces
-## Copy Variety configurations
+## Import Variety configurations
 ```
-cp ~/gnome-settings/variety ~/.config
+rsync -av ~/downloads/gnome-settings/.config/variety ~
 ```
-## Change kitty and foot theme
+## Import kitty and foot theme
+```
+rsync -av ~/downloads/gnome-settings/.config/kitty ~
+rsync -av ~/downloads/gnome-settings/.config/foot ~
+```
 ## Change emacs and web browser theme
