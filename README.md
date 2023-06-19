@@ -48,4 +48,4 @@ rsync -av ~/downloads/gnome-settings/.config/variety ~
 rsync -av ~/downloads/gnome-settings/.config/kitty ~
 rsync -av ~/downloads/gnome-settings/.config/foot ~
 ```
-### Change emacs, vim and web browser theme to Gruvbox dark
+### Change emacs, nvim and web browser theme to Gruvbox dark
