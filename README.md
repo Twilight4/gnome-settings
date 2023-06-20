@@ -29,8 +29,8 @@ ls -al /usr/share/backgrounds
 ```
 ## Installing GNOME extensions
 ```
-rsync -av ~/downloads/gnome-settings/gnome-extensions/.local ~
-ls -al ~/.local/share/gnome-shell/extensions
+rsync -av ~/downloads/gnome-settings/gnome-extensions/.config ~
+ls -al ~/.config/.local/share/gnome-shell/extensions
 ```
 ## Importing GNOME shell configurations
 ```
