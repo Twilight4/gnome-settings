@@ -107,6 +107,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right                             |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right                          |
+| <kbd>HOLD-CTRL</kbd> + <kbd>GRAB</kbd>             | Use Adaptive Tiling while grabbing a window   |
 
 ### Tiling-Assistant - editing mode
 | Keybind                                                        | Description                                   |
