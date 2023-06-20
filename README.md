@@ -65,10 +65,10 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
 | <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Exit focused window                           |
-| <kbd>SUPER</kbd> + <kbd>W</kbd> + <kbd>W</kbd>     | Open Browser                                  |
-| <kbd>SUPER</kbd> + <kbd>E</kbd> + <kbd>Q</kbd>     | Open Emacs                                    |
+| <kbd>SUPER</kbd> + <kbd>W</kbd>                    | Open Browser                                  |
+| <kbd>SUPER</kbd> + <kbd>E</kbd>                    | Open Emacs                                    |
 | <kbd>SUPER</kbd> + <kbd>I</kbd>                    | Open second workspace with terminal Edge (Default Profile) |
-| <kbd>SUPER</kbd> + <kbd>O</kbd> + <kbd>A</kbd>     | Open first workspace Microsoft Edge (Profile 1)            |
+| <kbd>SUPER</kbd> + <kbd>O</kbd>                    | Open first workspace Microsoft Edge (Profile 1)            |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
 
 ## Custom keybinds
