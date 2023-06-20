@@ -59,11 +59,12 @@ ls -al ~/.config/dconf
 ### Change emacs, nvim and web browser theme to Gruvbox dark
 
 # Keybinds
-### General
+## General
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
-| <kbd>SUPER</kbd> + <kbd>W</kbd>                    | Open firefox in workspace 2                   |
+| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
+
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Open WhatsApp in workspace 9 silently         |
 | <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Kill focused window                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Exit Hyprland                                 |
@@ -90,3 +91,53 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Open Youtube-Music in special:trash workspace |
 | <kbd>SUPER</kbd> + <kbd>B</kbd>                    | Toggle (show/hide) waybar                     |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>B</kbd> | Reload waybar                                 |
+
+
+## Other - default keybinds
+### Accessibility
+| Keybind                                            | Description                                   |
+| -------------------------------------------------- | --------------------------------------------- |
+| <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>S<kbd>    | Turn screen reader on or off                  |
+| <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>8<kbd>    | Turn zoom on or off                           |
+| <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>=<kbd>    | Zoom in                                       |
+| <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>-<kbd>    | Zoom out                                      |
+### Launchers                                                                                        |
+| <kbd>SUPER</kbd> + <kbd>F1</kbd>                   | Launch help browser                           |
+### Navigation
+| <kbd>SUPER</kbd> + <kbd>PgUp</kbd>                 | Move to workspace on the left                 |
+| <kbd>SUPER</kbd> + <kbd>PgDn</kbd>                 | Move to workspace on the right                |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>    | Move window one monitor down                  |
+| <kbd>SHIFt</kbd> + <kbd>SUPER</kbd> + <kbd>LEFT<kbd>    | Move window one monitor to the left           |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>RIGHT<kbd>   | Move window one monitor to the right          |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>UP<kbd>      | Move window one monitor up                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgUp<kbd>    | Move window one workspace to the left         |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgDn<kbd>    | Move window one workspace to the right        |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>End<kbd>     | Move window to last workspace                 |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Move window to workspace 1                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>2<kbd>  | Move window to workspace 2                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>3<kbd>  | Move window to workspace 3                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>4<kbd>  | Move window to workspace 4                    |
+| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | Switch applications                           |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>TAB</kbd>  | Switch system controls                        |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>ESC</kbd>  | Switch system controls directly               |
+| <kbd>SUPER</kbd> + <kbd>END</kbd>                  | Switch to last workspace                      |
+| <kbd>SUPER</kbd> + <kbd>1</kbd>                    | Switch to workspace 1                         |
+| <kbd>SUPER</kbd> + <kbd>2</kbd>                    | Switch to workspace 2                         |
+| <kbd>SUPER</kbd> + <kbd>3</kbd>                    | Switch to workspace 3                         |
+| <kbd>SUPER</kbd> + <kbd>4</kbd>                    | Switch to workspace 4                         |
+| <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
+| <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>      | Switch windows of an app directly             |
+| <kbd>SUPER</kbd> + <kbd>`</kbd> + <kbd>B</kbd>     | Switch windows of an application              |
+### Screenshots
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> | Recored a screencast interactively            |
+| <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd> | Take a screenshot                             |
+| <kbd>PRINT</kbd>                                   | Take a screenshot interactively               |
+| <kbd>ALT</kbd> + <kbd>PRINT</kbd>                  | Take a screenshow of a window                 |
+### System
+| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Lock screen                                   |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DEL</kbd>  | Log out                                       |
+| <kbd>SUPER</kbd> + <kbd>F10</kbd>                  | Open the app menu                             |
+| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
+| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | Show the notification list                    |
+| <kbd>SUPER</kbd> + <kbd>F2</kbd>                   | Show the run command prompt                   |
