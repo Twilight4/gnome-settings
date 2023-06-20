@@ -42,14 +42,18 @@ go to settings > multitasking and change workspaces to fixed number of workspace
 ## Importing Variety configurations
 ```
 rsync -av ~/downloads/gnome-settings/variety/.config ~
+ls -al ~/.config/variety
 ```
 ## Importing kitty and foot themes
 ```
 rsync -av ~/downloads/gnome-settings/kitty-theme/.config ~
+ls -al ~/.config/kitty
 rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
+ls -al ~/.config/foot
 ```
 ## Importing my dconf database configuration (binary file)
 ```
 rsync -av ~/downloads/gnome-settings/dconf-settings/.config ~
+ls -al ~/.config/dconf
 ```
 ### Change emacs, nvim and web browser theme to Gruvbox dark
