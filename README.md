@@ -64,7 +64,6 @@ ls -al ~/.config/dconf
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
-
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Open WhatsApp in workspace 9 silently         |
 | <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Kill focused window                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Exit Hyprland                                 |
@@ -133,7 +132,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>4</kbd>                                | Switch to workspace 4                         |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                                | Switch windows directly                       |
 | <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>                  | Switch windows of an app directly             |
-| <kbd>SUPER</kbd> + <kbd>backtick sign</kbd> + <kbd>B</kbd>     | Switch windows of an application              |
+| <kbd>SUPER</kbd> + <kbd>backtick</kbd> + <kbd>B</kbd>          | Switch windows of an application              |
 
 ### Screenshots
 | Keybind                                                        | Description                                   |
