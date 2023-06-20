@@ -7,25 +7,25 @@ git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 ## Installing GTK theme
 ```
-rsync -av ~/downloads/gnome-settings/themes/.themes ~
-ls -al ~/.themes
-ln -s ~/.themes/Gruvbox-Dark-BL-MOD/gtk-4.0/assets ~/.config/gtk-4.0
-ln -s ~/.themes/Gruvbox-Dark-BL-MOD/gtk-4.0/gtk.css ~/.config/gtk-4.0
-ln -s ~/.themes/Gruvbox-Dark-BL-MOD/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0
+rsync -av ~/downloads/gnome-settings/themes/.config ~
+ls -al ~/.config/.local/share/themes
+ln -s ~/.config/.local/share/themes/Gruvbox-Dark-BL-MOD/gtk-4.0/assets ~/.config/gtk-4.0
+ln -s ~/.config/.local/share/themes/Gruvbox-Dark-BL-MOD/gtk-4.0/gtk.css ~/.config/gtk-4.0
+ln -s ~/.config/.local/share/themes/Gruvbox-Dark-BL-MOD/gtk-4.0/gtk-dark.css ~/.config/gtk-4.0
 ```
 ## Installing icons and cursor theme
 ```
-rsync -av ~/downloads/gnome-settings/icons/.local ~
-ls -al ~/.local/share/icons
-rsync -av ~/downloads/cursors/ ~ 
-ls -al ~/.icons
+rsync -av ~/downloads/gnome-settings/icons/.config ~
+ls -al ~/.config/.local/share/icons
+rsync -av ~/downloads/gnome-settings/cursors/.config ~ 
+ls -al ~/.config/.local/share/icons
 ```
 ## Installing fonts and wallpapers
 ```
-rsync -av ~/downloads/gnome-settings/fonts/.local ~
-ls -al ~/.local/share/fonts
+rsync -av ~/downloads/gnome-settings/fonts/.config ~
+ls -al ~/.config/.local/share/fonts
 sudo rsync -av ~/downloads/gnome-settings/wallpapers/usr /
-ls -al /usr/share/backgrounds
+ls -al /usr/share/backgrounds/gruvbox
 ```
 ## Installing GNOME extensions
 ```
