@@ -64,32 +64,12 @@ ls -al ~/.config/dconf
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Open WhatsApp in workspace 9 silently         |
-| <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Kill focused window                           |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Exit Hyprland                                 |
-| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Open Microsoft Edge (Default Profile)         |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> | Open Microsoft Edge (Profile 1)               |
+| <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Exit focused window                           |
+| <kbd>SUPER</kbd> + <kbd>W</kbd> + <kbd>W</kbd>     | Open Browser                                  |
+| <kbd>SUPER</kbd> + <kbd>E</kbd> + <kbd>Q</kbd>     | Open Emacs                                    |
+| <kbd>SUPER</kbd> + <kbd>I</kbd>                    | Open second workspace with terminal Edge (Default Profile) |
+| <kbd>SUPER</kbd> + <kbd>O</kbd> + <kbd>A</kbd>     | Open first workspace Microsoft Edge (Profile 1)            |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>F</kbd>  | Toggle fake fullscreen of focused window      |
-| <kbd>SUPER</kbd> + <kbd>E</kbd>                    | Open lf - Terminal based file manager         |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> | Open Nautilus                                 |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | Toggle floating of focused window             |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> | Toggle floating on all windows                |
-| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Open application using anyrun                 |
-| <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Open application using wofi                   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> | Open application using bemenu                 |
-| <kbd>SUPER</kbd> + <kbd>L</kbd>                    | Toggle between Master and Dwindle layout      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Lock screen                                   |
-| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Set split ratio to 0.3                        |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | Set split ratio to -0.3                       |
-| <kbd>SUPER</kbd> + <kbd>Escape</kbd>               | Toggle power menu (archlinux-logout)          |
-| <kbd>SUPER</kbd> + <kbd>T</kbd>                    | Set night mode on (flux)                      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Set night mode off                            |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>O</kbd> | Color picker in RGB format                    |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>F</kbd>   | Focus the first matched kitty window          |
-| <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Open Youtube-Music in special:trash workspace |
-| <kbd>SUPER</kbd> + <kbd>B</kbd>                    | Toggle (show/hide) waybar                     |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>B</kbd> | Reload waybar                                 |
 
 ## Custom keybinds
 ### Tiling-Assistant extension
