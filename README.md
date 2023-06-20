@@ -152,3 +152,9 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                                | Show all apps                                 |
 | <kbd>SUPER</kbd> + <kbd>V</kbd>                                | Show the notification list                    |
 | <kbd>SUPER</kbd> + <kbd>F2</kbd>                               | Show the run command prompt                   |
+
+### Typing
+| Keybind                                                        | Description                                   |
+| -------------------------------------------------------------- | --------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>SPACE</kbd>                            | Switch to next input source                   |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
