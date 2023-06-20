@@ -158,3 +158,13 @@ ls -al ~/.config/dconf
 | -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>SPACE</kbd>                            | Switch to next input source                   |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
+
+
+### Windows
+| Keybind                                                        | Description                                   |
+| -------------------------------------------------------------- | --------------------------------------------- |
+| <kbd>ALT</kbd> + <kbd>SPACE</kbd>                              | Activate the window menu                      |
+| <kbd>SUPER</kbd> + <kbd>Q</kbd>                                | Close window                                  |
+| <kbd>SUPER</kbd> + <kbd>W</kbd> + <kbd>DEL</kbd>               | Hide window                                   |
+| <kbd>ALT</kbd> + <kbd>F7</kbd>                                 | Move window                                   |
+| <kbd>ALT</kbd> + <kbd>F8</kbd>                                 | Resize window                                 |
