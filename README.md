@@ -92,11 +92,21 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>B</kbd> | Reload waybar                                 |
 
 ## Custom keybinds
+### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
-| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Open WhatsApp in workspace 9 silently         |
+| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Tile Editing Mode
+| <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Restore Window Size
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Move Window to Center
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to top-left
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right
 
 ## Other - default keybinds
 ### Accessibility
