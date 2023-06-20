@@ -27,29 +27,29 @@ ls -al ~/.local/share/fonts
 sudo rsync -av ~/downloads/gnome-settings/wallpapers/usr /
 ls -al /usr/share/backgrounds
 ```
-## Installing GNOME extensions - TODO
+## Installing GNOME extensions
 ```
 rsync -av ~/downloads/gnome-settings/gnome-extensions/.local ~
 ls -al ~/.local/share/gnome-shell/extensions
 ```
-## Import GNOME shell configurations
+## Importing GNOME shell configurations
 ```
 cd ~/downloads/gnome-settings/gnome-shell-config
 dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
 ```
 go to settings > multitasking and change workspaces to fixed number of workspaces
-## Import Variety configurations
+## Importing Variety configurations
 ```
-rsync -av ~/downloads/gnome-settings/.config/variety ~
+rsync -av ~/downloads/gnome-settings/variety/.config ~
 ```
-## Import kitty and foot theme
+## Importing kitty and foot themes
 ```
-rsync -av ~/downloads/gnome-settings/.config/kitty ~
-rsync -av ~/downloads/gnome-settings/.config/foot ~
+rsync -av ~/downloads/gnome-settings/kitty-theme/.config ~
+rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
 ```
-## Import my dconf database configuration (binary file)
+## Importing my dconf database configuration (binary file)
 ```
-rsync -av ~/downloads/gnome-settings/.config/dconf ~
+rsync -av ~/downloads/gnome-settings/dconf-settings/.config ~
 ```
 ### Change emacs, nvim and web browser theme to Gruvbox dark
