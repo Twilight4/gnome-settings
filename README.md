@@ -91,6 +91,12 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>B</kbd>                    | Toggle (show/hide) waybar                     |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>B</kbd> | Reload waybar                                 |
 
+## Custom keybinds
+| Keybind                                            | Description                                   |
+| -------------------------------------------------- | --------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
+| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd> | Open WhatsApp in workspace 9 silently         |
 
 ## Other - default keybinds
 ### Accessibility
@@ -158,7 +164,6 @@ ls -al ~/.config/dconf
 | -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>SPACE</kbd>                            | Switch to next input source                   |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
-
 
 ### Windows
 | Keybind                                                        | Description                                   |
