@@ -127,7 +127,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>4</kbd>                    | Switch to workspace 4                         |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
 | <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>      | Switch windows of an app directly             |
-| <kbd>SUPER</kbd> + <kbd>`</kbd> + <kbd>B</kbd>     | Switch windows of an application              |
+| <kbd>SUPER</kbd> + <kbd>backtick sign</kbd> + <kbd>B</kbd>     | Switch windows of an application              |
 ### Screenshots
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> | Recored a screencast interactively            |
 | <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd> | Take a screenshot                             |
