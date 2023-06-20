@@ -107,6 +107,21 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right                             |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right                          |
+
+### Tiling-Assistant - editing mode
+| Keybind                                                        | Description                                   |
+| -------------------------------------------------------------- | --------------------------------------------- |
+| <kbd>h/j/k/l</kbd>                                             | Navigate focus                                |
+| <kbd>CTRL</kbd> + <kbd>h/j/k/l</kbd>                           | Swaps the highlighted windows                 |
+| <kbd>SHIFT</kbd> + <kbd>h/j/k/l</kbd>                          | Moves the tile group to the monitor           |
+| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>h/j/k/l</kbd>         | Moves the tile group to the workspace         |
+| <kbd>SUPER</kbd> + <kbd>h/j/k/l</kbd>                          | Resizes the highlighted window                |
+| <kbd>Q</kbd>                                                   | Quits the highlighted window                  |
+| <kbd>R</kbd>                                                   | Restores the highlighted window               |
+| <kbd>E</kbd>                                                   | Expands the highlighted window                |
+| <kbd>C</kbd>                                                   | Cycles through the half-sized tiling states   |
+| <kbd>SPACE</kbd>                                               | Opens the tiling popup                        |
+| <kbd>Esc/Return</kbd>                                          | Leaves the tile editing mode                  |
  
 ## Other - default keybinds
 ### Accessibility
