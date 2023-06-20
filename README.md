@@ -95,19 +95,19 @@ ls -al ~/.config/dconf
 ### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Tile Editing Mode
-| <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Restore Window Size
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Move Window to Center
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to top-left
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right
-
+| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Tile Editing Mode                             |
+| <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Restore Window Size                           |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Move Window to Center                         |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top                                   |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left                                  |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right                                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to top-left                              |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right                             |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left                           |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right                          |
+ 
 ## Other - default keybinds
 ### Accessibility
 | Keybind                                                        | Description                                   |
@@ -147,6 +147,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>3</kbd>                                | Switch to workspace 3                         |
 | <kbd>SUPER</kbd> + <kbd>4</kbd>                                | Switch to workspace 4                         |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                                | Switch windows directly                       |
+| <kbd>ALT</kbd> + <kbd>TAB</kbd>                                | Switch windows on current workspace           |
 | <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>                  | Switch windows of an app directly             |
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd> + <kbd>B</kbd>          | Switch windows of an application              |
 
