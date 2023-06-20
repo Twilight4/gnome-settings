@@ -108,6 +108,8 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
 
 ### Navigation
+| Keybind                                                        | Description                                   |
+| -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>PgUp</kbd>                             | Move to workspace on the left                 |
 | <kbd>SUPER</kbd> + <kbd>PgDn</kbd>                             | Move to workspace on the right                |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>           | Move window one monitor down                  |
