@@ -101,18 +101,18 @@ ls -al ~/.config/dconf
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>8<kbd>    | Turn zoom on or off                           |
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>=<kbd>    | Zoom in                                       |
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>-<kbd>    | Zoom out                                      |
-### Launchers                                                                                        |
+### Launchers                                                                                        
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                   | Launch help browser                           |
 ### Navigation
 | <kbd>SUPER</kbd> + <kbd>PgUp</kbd>                 | Move to workspace on the left                 |
 | <kbd>SUPER</kbd> + <kbd>PgDn</kbd>                 | Move to workspace on the right                |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>    | Move window one monitor down                  |
-| <kbd>SHIFt</kbd> + <kbd>SUPER</kbd> + <kbd>LEFT<kbd>    | Move window one monitor to the left           |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>RIGHT<kbd>   | Move window one monitor to the right          |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>UP<kbd>      | Move window one monitor up                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgUp<kbd>    | Move window one workspace to the left         |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgDn<kbd>    | Move window one workspace to the right        |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>End<kbd>     | Move window to last workspace                 |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>    | Move window one monitor down             |
+| <kbd>SHIFt</kbd> + <kbd>SUPER</kbd> + <kbd>LEFT<kbd>    | Move window one monitor to the left      |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>RIGHT<kbd>   | Move window one monitor to the right     |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>UP<kbd>      | Move window one monitor up               |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgUp<kbd>    | Move window one workspace to the left    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgDn<kbd>    | Move window one workspace to the right   |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>End<kbd>     | Move window to last workspace            |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Move window to workspace 1                    |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>2<kbd>  | Move window to workspace 2                    |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>3<kbd>  | Move window to workspace 3                    |
@@ -127,7 +127,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>4</kbd>                    | Switch to workspace 4                         |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
 | <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>      | Switch windows of an app directly             |
-| <kbd>SUPER</kbd> + <kbd>backtick sign</kbd> + <kbd>B</kbd>     | Switch windows of an application              |
+| <kbd>SUPER</kbd> + <kbd>backtick sign</kbd> + <kbd>B</kbd>     | Switch windows of an application  |
 ### Screenshots
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> | Recored a screencast interactively            |
 | <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd> | Take a screenshot                             |
