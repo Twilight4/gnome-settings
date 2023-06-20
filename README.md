@@ -48,4 +48,8 @@ rsync -av ~/downloads/gnome-settings/.config/variety ~
 rsync -av ~/downloads/gnome-settings/.config/kitty ~
 rsync -av ~/downloads/gnome-settings/.config/foot ~
 ```
+## Import my dconf database configuration (binary file)
+```
+rsync -av ~/downloads/gnome-settings/.config/dconf ~
+```
 ### Change emacs, nvim and web browser theme to Gruvbox dark
