@@ -65,11 +65,18 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>Return</kbd>               | Open Kitty terminal                           |
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
 | <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Exit focused window                           |
-| <kbd>SUPER</kbd> + <kbd>W</kbd>                    | Open Browser                                  |
-| <kbd>SUPER</kbd> + <kbd>E</kbd>                    | Open Emacs                                    |
-| <kbd>SUPER</kbd> + <kbd>I</kbd>                    | Open second workspace with terminal Edge (Default Profile) |
-| <kbd>SUPER</kbd> + <kbd>O</kbd>                    | Open first workspace Microsoft Edge (Profile 1)            |
+| <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Lock screen                                   |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Log out                                       |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
+| <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Hide window                                   |
+| <kbd>SUPER</kbd> + <kbd>Z</kbd>                    | Resize window                                 |
+| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | Switch applications                           |
+| <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
+| <kbd>ALT</kbd> + <kbd>TAB</kbd>                    | Switch windows on current workspace           |
+| <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
+| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | Show the notification list                    |
+| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Show the run command prompt                   |
 
 ## Custom keybinds
 ### Tiling-Assistant extension
@@ -79,10 +86,10 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Restore Window Size                           |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Move Window to Center                         |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top                                   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom                                |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left                                  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right                                 |
+| <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Tile to top                                   |
+| <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Tile to bottom                                |
+| <kbd>SUPER</kbd> + <kbd>H</kbd>                    | Tile to left                                  |
+| <kbd>SUPER</kbd> + <kbd>L</kbd>                    | Tile to right                                 |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to top-left                              |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right                             |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left                           |
@@ -103,6 +110,18 @@ ls -al ~/.config/dconf
 | <kbd>C</kbd>                                                   | Cycles through the half-sized tiling states   |
 | <kbd>SPACE</kbd>                                               | Opens the tiling popup                        |
 | <kbd>Esc/Return</kbd>                                          | Leaves the tile editing mode                  |
+
+### Dash to Dock extension
+| Keybind                                            | Description                                   |
+| -------------------------------------------------- | --------------------------------------------- |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Hide app 1                                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>2<kbd>  | Hide app 2                                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>3<kbd>  | Hide app 3                                    |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>4<kbd>  | Hide app 4                                    |
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>1<kbd>   | Launch app 1                                  |
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>2<kbd>   | Launch app 2                                  |
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>3<kbd>   | Launch app 3                                  |
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>4<kbd>   | Launch app 4                                  |
  
 ## Other - default keybinds
 ### Accessibility
@@ -113,70 +132,34 @@ ls -al ~/.config/dconf
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>=<kbd>                | Zoom in                                       |
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>-<kbd>                | Zoom out                                      |
 
-### Launchers                                                                                        
+### Navigation - TODO
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
-
-### Navigation
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>PgUp</kbd>                             | Move to workspace on the left                 |
-| <kbd>SUPER</kbd> + <kbd>PgDn</kbd>                             | Move to workspace on the right                |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>           | Move window one monitor down                  |
 | <kbd>SHIFt</kbd> + <kbd>SUPER</kbd> + <kbd>LEFT<kbd>           | Move window one monitor to the left           |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>RIGHT<kbd>          | Move window one monitor to the right          |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>UP<kbd>             | Move window one monitor up                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgUp<kbd>           | Move window one workspace to the left         |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>PgDn<kbd>           | Move window one workspace to the right        |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>End<kbd>            | Move window to last workspace                 |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>              | Move window to workspace 1                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>2<kbd>              | Move window to workspace 2                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>3<kbd>              | Move window to workspace 3                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>4<kbd>              | Move window to workspace 4                    |
-| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                              | Switch applications                           |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>TAB</kbd>              | Switch system controls                        |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>ESC</kbd>              | Switch system controls directly               |
-| <kbd>SUPER</kbd> + <kbd>END</kbd>                              | Switch to last workspace                      |
-| <kbd>SUPER</kbd> + <kbd>1</kbd>                                | Switch to workspace 1                         |
-| <kbd>SUPER</kbd> + <kbd>2</kbd>                                | Switch to workspace 2                         |
-| <kbd>SUPER</kbd> + <kbd>3</kbd>                                | Switch to workspace 3                         |
-| <kbd>SUPER</kbd> + <kbd>4</kbd>                                | Switch to workspace 4                         |
-| <kbd>ALT</kbd> + <kbd>ESC</kbd>                                | Switch windows directly                       |
-| <kbd>ALT</kbd> + <kbd>TAB</kbd>                                | Switch windows on current workspace           |
-| <kbd>ALT</kbd> + <kbd>F6</kbd> + <kbd>B</kbd>                  | Switch windows of an app directly             |
-| <kbd>SUPER</kbd> + <kbd>backtick</kbd> + <kbd>B</kbd>          | Switch windows of an application              |
+| <kbd>SUPER</kbd> + <kbd>I</kbd>                                | Workspace 1 - terminal                        |
+| <kbd>SUPER</kbd> + <kbd>O</kbd>                                | Workspace 2 - terminal                        |
+| <kbd>SUPER</kbd> + <kbd>W</kbd>                                | Workspace 3 - web browser                     |
+| <kbd>SUPER</kbd> + <kbd>E</kbd>                                | Workspace 4 - emacs                           |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd>             | Switch to Workspace 1                         |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>O</kbd>             | Switch to Workspace 2                         |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd>             | Switch to Workspace 3                         |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd>             | Switch to Workspace 4                         |
 
 ### Screenshots
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> | Recored a screencast interactively        |
-| <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd>             | Take a screenshot                             |
-| <kbd>PRINT</kbd>                                               | Take a screenshot interactively               |
-| <kbd>ALT</kbd> + <kbd>PRINT</kbd>                              | Take a screenshow of a window                 |
+| Keybind                                                            | Description                               | 
+| ------------------------------------------------------------------ | ----------------------------------------- |
+| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> | Recored a screencast interactively        | 
+| <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd>                 | Take a screenshot                         | 
+| <kbd>PRINT</kbd>                                                   | Take a screenshot interactively           | 
+| <kbd>ALT</kbd> + <kbd>PRINT</kbd>                                  | Take a screenshow of a window             | 
 
-### System
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>N</kbd>                                | Focus the active notification                 |
-| <kbd>SUPER</kbd> + <kbd>Y</kbd>                                | Lock screen                                   |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>DEL</kbd>              | Log out                                       |
-| <kbd>SUPER</kbd> + <kbd>F10</kbd>                              | Open the app menu                             |
-| <kbd>SUPER</kbd> + <kbd>A</kbd>                                | Show all apps                                 |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                                | Show the notification list                    |
-| <kbd>SUPER</kbd> + <kbd>F2</kbd>                               | Show the run command prompt                   |
-
-### Typing
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>SPACE</kbd>                            | Switch to next input source                   |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
-
-### Windows
+### Other
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>ALT</kbd> + <kbd>SPACE</kbd>                              | Activate the window menu                      |
-| <kbd>SUPER</kbd> + <kbd>Q</kbd>                                | Close window                                  |
-| <kbd>SUPER</kbd> + <kbd>W</kbd> + <kbd>DEL</kbd>               | Hide window                                   |
-| <kbd>ALT</kbd> + <kbd>F7</kbd>                                 | Move window                                   |
-| <kbd>ALT</kbd> + <kbd>F8</kbd>                                 | Resize window                                 |
+| <kbd>SUPER</kbd> + <kbd>SPACE</kbd>                            | Switch to next input source                   |
+| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
+| <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
