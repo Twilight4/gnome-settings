@@ -137,10 +137,8 @@ ls -al ~/.config/dconf
 ### Navigation - TODO
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>DOWN<kbd>           | Move window one monitor down                  |
-| <kbd>SHIFt</kbd> + <kbd>SUPER</kbd> + <kbd>LEFT<kbd>           | Move window one monitor to the left           |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>RIGHT<kbd>          | Move window one monitor to the right          |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>UP<kbd>             | Move window one monitor up                    |
+| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>H<kbd>                | Move window one monitor to the left           |
+| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>L<kbd>                | Move window one monitor to the right          |
 | <kbd>SUPER</kbd> + <kbd>I</kbd>                                | Workspace 1 - terminal                        |
 | <kbd>SUPER</kbd> + <kbd>O</kbd>                                | Workspace 2 - terminal                        |
 | <kbd>SUPER</kbd> + <kbd>W</kbd>                                | Workspace 3 - web browser                     |
