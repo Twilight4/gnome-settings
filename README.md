@@ -44,12 +44,14 @@ go to settings > multitasking and change workspaces to fixed number of workspace
 rsync -av ~/downloads/gnome-settings/variety/.config ~
 ls -al ~/.config/variety
 ```
-## Importing kitty and foot themes
+## Importing kitty, foot and neofetch themes
 ```
 rsync -av ~/downloads/gnome-settings/kitty-theme/.config ~
 ls -al ~/.config/kitty
 rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
 ls -al ~/.config/foot
+rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
+ls -al ~/.config/neofetch
 ```
 ## Importing my dconf database configuration (binary file)
 ```
