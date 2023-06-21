@@ -123,7 +123,7 @@ ls -al ~/.config/dconf
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>3<kbd>   | Launch app 3                                  |
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>4<kbd>   | Launch app 4                                  |
  
-## Other - default keybinds
+## Default keybinds
 ### Accessibility
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
