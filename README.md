@@ -82,7 +82,7 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>ALT</kbd> + <kbd>TAB</kbd>                    | Switch windows on current workspace           |
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
 | <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT<kbd> + <kbd>N</kbd>  | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>  | Focus the active notification                 |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt                   |
 
 ## Custom keybinds
