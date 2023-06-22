@@ -66,13 +66,17 @@ dconf dump / > gnome-setting-backup.ini
 rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
 ```
 
-## Importing firefox-onebar config
+## Importing firefox theme config with UI fix
 1. Go to `about:config`
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - set it to **true**
-3. Install gruvbox-dark add-on
 ```
-git clone https://codeberg.org/Freeplay/firefox-onebar.git ~/.mozilla/chrome
+git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
+cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/
+mkdir ~/.mozilla/chrome && mv ~/downloads/Firefox-UI-Fix/* ~/.mozilla/chrome && rm -rf ~/downloads/Firefox-UI-Fix
+curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/chrome/userChrome.css
 ```
+3. Click the `Clear startup cache…` at the top of `about:support`
+4. Install Add-Ons: Custom New Tab Page, Gruvbox-dark
 
 ## Importing Variety configurations
 ```
@@ -91,7 +95,6 @@ ls -al ~/.config/neofetch
 ```
 
 ## Importing neovim and emacs theme
-Neovim theme:
 ```
 rsync -av ~/downloads/gnome-settings/neovim-theme/.config ~
 ```
