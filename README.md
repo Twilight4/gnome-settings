@@ -86,8 +86,8 @@ ls -al ~/.config/dconf
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Tile Editing Mode                             |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Restore Window Size                           |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Move Window to Center                         |
+| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Restore Window Size                           |
+| <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
 | <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Tile to top                                   |
 | <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Tile to bottom                                |
 | <kbd>SUPER</kbd> + <kbd>H</kbd>                    | Tile to left                                  |
@@ -133,7 +133,7 @@ ls -al ~/.config/dconf
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>=<kbd>                | Zoom in                                       |
 | <kbd>ALT</kbd> + <kbd>SUPER</kbd> + <kbd>-<kbd>                | Zoom out                                      |
 
-### Navigation - TODO
+### Navigation
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>H<kbd>                | Move window one monitor to the left           |
