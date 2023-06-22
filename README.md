@@ -45,13 +45,13 @@ dconf load /org/gnome/shell/ < org-gnome-shell.conf
 ```
 go to settings > multitasking and change workspaces to fixed number of workspaces: 4
 
-## Importing my system settings
+## Importing system settings
 ```
 cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings-backup.ini
 ```
 
-### Tip: Exporting your system settings
+### Tip: Exporting system settings
 ```
 dconf dump / > gnome-setting-backup.ini
 ```
