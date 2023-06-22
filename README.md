@@ -53,12 +53,16 @@ ls -al ~/.config/foot
 rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
 ```
-## Importing my dconf database configuration (binary file)
+## Importing my dconf settings
 ```
-rsync -av ~/downloads/gnome-settings/dconf-settings/.config ~
-ls -al ~/.config/dconf
+cd ~/downloads/gnome-settings/dconf-settings
+dconf load / < gnome-settings-backup.ini
 ```
-### Change emacs, nvim and web browser theme to Gruvbox dark
+### Tip: Exporting your system settings
+```
+dconf dump / > gnome-setting-backup.ini
+```
+### Other Gruvbox dark themes: emacs, neovim, Brave/Librewolf
 
 # Keybinds
 ## General
