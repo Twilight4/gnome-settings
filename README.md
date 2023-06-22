@@ -68,7 +68,7 @@ rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
 
 ## Importing firefox theme config with UI fix
 1. Go to `about:config`
-2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - set it to **true**
+2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - switch to **true**
 ```
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/8bejujaq.default-release
