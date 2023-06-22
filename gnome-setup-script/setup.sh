@@ -1,9 +1,9 @@
+#!/bin/bash
+
 # Check the value of setting to change
 #gsettings get org.gnome.desktop.wm.preferences button-layout
 # Disable minimise, maximise and close buttons from all windows
 gsettings set org.gnome.desktop.wm.preferences button-layout :
-
-
 
 echo Post-Installation:'
 - Check if DBus service is launched (for kde connect)
