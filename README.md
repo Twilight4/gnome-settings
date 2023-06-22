@@ -109,7 +109,7 @@ rsync -av ~/downloads/gnome-settings/neovim-theme/.config ~
 ls -al ~/.config/nvim
 rm -rf ~/downloads/gnome-settings
 ```
-Emacs theme: `SPC m t` - gruvbox-dark
+**Emacs theme**: `SPC m t` - gruvbox-dark
 
 ## Importing post-installation settings
 ```
