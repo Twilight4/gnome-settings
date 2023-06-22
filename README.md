@@ -58,6 +58,10 @@ ls -al ~/.config/neofetch
 cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings-backup.ini
 ```
+## Setting up other settings
+```
+~/downloads/gnome-settings/gnome-setup-script/setup.sh
+```
 ### Tip: Exporting your system settings
 ```
 dconf dump / > gnome-setting-backup.ini
