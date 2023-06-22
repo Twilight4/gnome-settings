@@ -2,7 +2,7 @@
 ## Installing GNOME Package Dependencies and file resources
 ```
 sudo pacman -Syu
-sudo pacman -S gnome-tweak-tool gnome-extensions-app git curl rsync gnome-browser-connector extension-manager variety
+sudo pacman -S gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git curl rsync variety
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 ## Installing GTK theme
