@@ -56,11 +56,6 @@ dconf load / < gnome-settings-backup.ini
 dconf dump / > gnome-setting-backup.ini
 ```
 
-## Importing post-installation settings
-```
-~/downloads/gnome-settings/gnome-setup-script/setup.sh
-```
-
 ## Importing switch-minimized script
 ```
 rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
@@ -115,6 +110,11 @@ ls -al ~/.config/nvim
 rm -rf ~/downloads/gnome-settings
 ```
 Emacs theme: `SPC m t` - gruvbox-dark
+
+## Importing post-installation settings
+```
+~/downloads/gnome-settings/gnome-setup-script/setup.sh
+```
 
 # Keybinds
 ## General
