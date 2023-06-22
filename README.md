@@ -71,8 +71,7 @@ rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - set it to **true**
 3. Install gruvbox-dark add-on
 ```
-cd ~/.mozilla/
-git clone https://codeberg.org/Freeplay/firefox-onebar.git chrome
+git clone https://codeberg.org/Freeplay/firefox-onebar.git ~/.mozilla/chrome
 ```
 
 ## Importing Variety configurations
