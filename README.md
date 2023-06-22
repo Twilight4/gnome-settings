@@ -71,9 +71,9 @@ rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - set it to **true**
 ```
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
-cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/7c97jvty.default-release
-mkdir ~/.mozilla/7c97jvty.default-release/chrome && mv ~/downloads/Firefox-UI-Fix/* ~/.mozilla/7c97jvty.default-release/chrome && rm -rf ~/downloads/Firefox-UI-Fix
-curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/7c97jvty.default-release/chrome/userChrome.css
+cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/8bejujaq.default-release
+mkdir ~/.mozilla/8bejujaq.default-release/chrome && mv ~/downloads/Firefox-UI-Fix/* ~/.mozilla/8bejujaq.default-release/chrome && rm -rf ~/downloads/Firefox-UI-Fix
+curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/8bejujaq.default-release/chrome/userChrome.css
 ```
 3. Click the `Clear startup cache…` at the top of `about:support`
 4. Install Add-Ons: `Custom New Tab Page`
