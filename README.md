@@ -58,7 +58,7 @@ ls -al ~/.config/neofetch
 cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings-backup.ini
 ```
-## Setting up other settings
+## Importing other settings
 ```
 ~/downloads/gnome-settings/gnome-setup-script/setup.sh
 ```
@@ -66,6 +66,16 @@ dconf load / < gnome-settings-backup.ini
 ```
 rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
 ```
+## Importing firefox-onebar config
+1. go to about:config
+2. search for: toolkit.legacyUserProfileCustomizations.stylesheets - set it to **true**
+```
+cd ~/.mozilla/
+git clone https://codeberg.org/Freeplay/firefox-onebar.git
+```
+
+
+
 ### Tip: Exporting your system settings
 ```
 dconf dump / > gnome-setting-backup.ini
