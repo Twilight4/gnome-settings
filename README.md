@@ -86,6 +86,7 @@ ls -al ~/.config/dconf
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Tile Editing Mode                             |
+| <kbd>SUPER</kbd> + <kbd>M</kbd>                    | Toggle 'Always on Top'
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
 | <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
 | <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
