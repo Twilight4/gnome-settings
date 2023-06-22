@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Conky Config
+GenericName=Conky
+Comment=Conky config alshain-mod.
+Categories=Utility;
+Type=Application
+Exec=sh -c '/home/$USER/.config/conky/alshain-mod/start.sh'
+Icon=conky
+Terminal=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Hidden=false
+Name[en_US]=conky-alshain-mod.desktop
+Comment[en_US]=Conky config alshain-mod.
+X-GNOME-Autostart-Delay=3

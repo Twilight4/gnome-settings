@@ -2,7 +2,7 @@
 ## Installing GNOME Package Dependencies and file resources
 ```
 sudo pacman -Syu
-sudo pacman -S gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git curl rsync variety
+sudo pacman -S gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync variety
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 
@@ -64,11 +64,13 @@ dconf dump / > gnome-setting-backup.ini
 ## Importing switch-minimized script
 ```
 rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
+ls -al ~/.config/zsh/bash-scripts
 ```
 
 ## Importing firefox theme config with UI fix
 1. Go to `about:config`
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - switch to **true**
+3. Download configurations and theme:
 ```
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/8bejujaq.default-release
@@ -76,6 +78,19 @@ mkdir ~/.mozilla/8bejujaq.default-release/chrome && mv ~/downloads/Firefox-UI-Fi
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/8bejujaq.default-release/chrome/userChrome.css
 ```
 3. Click the `Clear startup cache…` at the top of `about:support`
+
+## Importing conky configurations
+```
+rsync -av ~/downloads/gnome-settings/conky-config/.config ~
+ls -al ~/.config/conky
+ls -al ~/.config/autostart
+```
+### Change weather location
+1. Go to https://openweathermap.org/ and search your city
+2. Copy the city ID from URL and paste it in city_id variable:
+```
+nvim ~/.config/conky/alshain-mod/scripts/weather-v2.0.sh
+```
 
 ## Importing Variety configurations
 ```
@@ -96,6 +111,8 @@ ls -al ~/.config/neofetch
 ## Importing neovim and emacs theme
 ```
 rsync -av ~/downloads/gnome-settings/neovim-theme/.config ~
+ls -al ~/.config/nvim
+rm -rf ~/downloads/gnome-settings
 ```
 Emacs theme: `SPC m t` - gruvbox-dark
 
