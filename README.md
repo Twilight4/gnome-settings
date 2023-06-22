@@ -194,6 +194,6 @@ dconf dump / > gnome-setting-backup.ini
 2. Restart the PC
 3. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager: rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension
 4. Reinstall GNOME and then restart the PC: 
-  - sudo pacman -Rns gnome-shell gnome-session
-  - sudo pacman -S gnome-shell gnome-session
+    - sudo pacman -Rns gnome-shell gnome-session
+    - sudo pacman -S gnome-shell gnome-session
 5. Use a live USB or recovery mode 
