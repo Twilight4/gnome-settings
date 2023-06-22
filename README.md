@@ -62,6 +62,10 @@ dconf load / < gnome-settings-backup.ini
 ```
 ~/downloads/gnome-settings/gnome-setup-script/setup.sh
 ```
+## Importing switch-minimized script
+```
+rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
+```
 ### Tip: Exporting your system settings
 ```
 dconf dump / > gnome-setting-backup.ini
