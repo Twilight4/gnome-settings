@@ -38,7 +38,7 @@ cd ~/downloads/gnome-settings/gnome-shell-config
 dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
 ```
-go to settings > multitasking and change workspaces to fixed number of workspaces
+go to settings > multitasking and change workspaces to fixed number of workspaces: 4
 ## Importing Variety configurations
 ```
 rsync -av ~/downloads/gnome-settings/variety/.config ~
