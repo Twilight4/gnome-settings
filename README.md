@@ -70,23 +70,24 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Lock screen                                   |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Log out                                       |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
-| <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Hide window                                   |
+| <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Dashboard menu                                |
+| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Hide window                                   |
 | <kbd>SUPER</kbd> + <kbd>Z</kbd>                    | Resize window                                 |
 | <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | Switch applications                           |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
 | <kbd>ALT</kbd> + <kbd>TAB</kbd>                    | Switch windows on current workspace           |
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
-| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Focus the active notification                 |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | Show the notification list                    |
-| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Show the run command prompt                   |
+| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
+| <kbd>SUPER</kbd> + <kbd>SHIFT<kbd> + <kbd>N</kbd>  | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt                   |
 
 ## Custom keybinds
 ### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Tile Editing Mode                             |
+| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Tile Editing Mode                             |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
-| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Restore Window Size                           |
+| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
 | <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
 | <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Tile to top                                   |
 | <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Tile to bottom                                |
@@ -112,6 +113,14 @@ ls -al ~/.config/dconf
 | <kbd>SPACE</kbd>                                               | Opens the tiling popup                        |
 | <kbd>Esc/Return</kbd>                                          | Leaves the tile editing mode                  |
 
+### Clipboard Indicator
+| Keybind                                                        | Description                                   |
+| -------------------------------------------------------------- | --------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>V</kbd>                                | Show the clipboard menu                       |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>             | Clear the clipboard history                   |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>               | Previous entry                                |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>N</kbd>               | Next entry                                    |
+
 ### Dash to Dock extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
@@ -123,7 +132,7 @@ ls -al ~/.config/dconf
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>2<kbd>   | Launch app 2                                  |
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>3<kbd>   | Launch app 3                                  |
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>4<kbd>   | Launch app 4                                  |
- 
+
 ## Default keybinds
 ### Accessibility
 | Keybind                                                        | Description                                   |
