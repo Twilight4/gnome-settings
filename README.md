@@ -76,7 +76,6 @@ mkdir ~/.mozilla/8bejujaq.default-release/chrome && mv ~/downloads/Firefox-UI-Fi
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/8bejujaq.default-release/chrome/userChrome.css
 ```
 3. Click the `Clear startup cache…` at the top of `about:support`
-4. Install Add-Ons: `Custom New Tab Page`
 
 ## Importing Variety configurations
 ```
