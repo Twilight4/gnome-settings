@@ -84,6 +84,7 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
 | <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Dashboard menu                                |
 | <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Hide window                                   |
+| <kbd>SUPER</kbd> + <kbd>P</kbd>                    | Displays/Monitors menu                        |
 | <kbd>SUPER</kbd> + <kbd>Z</kbd>                    | Resize window                                 |
 | <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | Switch applications                           |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
