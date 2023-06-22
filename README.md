@@ -82,7 +82,7 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>ALT</kbd> + <kbd>TAB</kbd>                    | Switch windows on current workspace           |
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
 | <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd>  | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd> | Focus the active notification                 |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt                   |
 
 ## Custom keybinds
@@ -94,14 +94,14 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
 | <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
 | <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
-| <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Tile to top                                   |
-| <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Tile to bottom                                |
-| <kbd>SUPER</kbd> + <kbd>H</kbd>                    | Tile to left                                  |
-| <kbd>SUPER</kbd> + <kbd>L</kbd>                    | Tile to right                                 |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to top-left                              |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to top-right                             |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom-left                           |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to bottom-right                          |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top                                   |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left                                  |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right                                 |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>J</kbd>  | Tile to top-left                              |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>K</kbd>  | Tile to top-right                             |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>H</kbd>  | Tile to bottom-left                           |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>L</kbd>  | Tile to bottom-right                          |
 
 ### Tiling-Assistant - editing mode
 | Keybind                                                        | Description                                   |
@@ -118,7 +118,7 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SPACE</kbd>                                               | Opens the tiling popup                        |
 | <kbd>Esc/Return</kbd>                                          | Leaves the tile editing mode                  |
 
-### Clipboard Indicator
+### Clipboard Indicator extension
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>V</kbd>                                | Show the clipboard menu                       |
@@ -126,7 +126,7 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>               | Previous entry                                |
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>N</kbd>               | Next entry                                    |
 
-### Dash to Dock extension
+### Dash to Dock extension - TODO
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Hide app 1                                    |
@@ -137,6 +137,14 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>2<kbd>   | Launch app 2                                  |
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>3<kbd>   | Launch app 3                                  |
 | <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>4<kbd>   | Launch app 4                                  |
+
+### Focus changer extension
+| Keybind                                            | Description                                   |
+| -------------------------------------------------- | --------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>H</kbd>                    | Focus left                                    |
+| <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Focus down                                    |
+| <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Focus up                                      |
+| <kbd>SUPER</kbd> + <kbd>L</kbd>                    | Focus right                                   |
 
 ## Default keybinds
 ### Accessibility
