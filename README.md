@@ -68,7 +68,7 @@ ls -al ~/.config/dconf
 | <kbd>SUPER</kbd> + <kbd>A</kbd>                    | Show all apps                                 |
 | <kbd>SUPER</kbd> + <kbd>Q</kbd>                    | Exit focused window                           |
 | <kbd>SUPER</kbd> + <kbd>Y</kbd>                    | Lock screen                                   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Log out                                       |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Q</kbd> | Power off                                     |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle fullscreen of focused window           |
 | <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Dashboard menu                                |
 | <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Hide window                                   |
