@@ -190,9 +190,11 @@ dconf dump / > gnome-setting-backup.ini
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
 
 ## Troubleshooting GNOME freeze at login screen login screen (after each step see if the problem is solved)
-1. Restart the display manager: Ctrl+Alt+F2 (or alternative) and issue command: sudo systemctl restart gdm
+1. Restart the display manager - Ctrl+Alt+F2 (or alternative) and issue command:
+    - sudo systemctl restart gdm
 2. Restart the PC
-3. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager: rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension
+3. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager:
+    - rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension
 4. Reinstall GNOME and then restart the PC: 
     - sudo pacman -Rns gnome-shell gnome-session
     - sudo pacman -S gnome-shell gnome-session
