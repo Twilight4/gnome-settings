@@ -238,7 +238,7 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
 
-## Troubleshooting GNOME freeze at login screen login screen (after each step see if the problem is solved)
+## Troubleshooting GNOME freeze at login screen login screen (check after each step if the problem persists)
 1. Restart the display manager or try to disabling it - Ctrl+Alt+F2 (or alternative), issue command:
     - `sudo systemctl restart gdm`
     - `sudo systemctl disable gdm`
