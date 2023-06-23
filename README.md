@@ -132,7 +132,7 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd> | Focus the active notification                 |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type `gnome-restart` to restart gnome shell |
 
-## Custom keybinds
+## Extension keybinds
 ### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
@@ -223,6 +223,16 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SHIFT</kbd> + <kbd>PRINT</kbd> + <kbd>F</kbd>                 | Take a screenshot                         | 
 | <kbd>PRINT</kbd>                                                   | Take a screenshot interactively           | 
 | <kbd>ALT</kbd> + <kbd>PRINT</kbd>                                  | Take a screenshow of a window             | 
+
+### Custom-set keybinds
+| Keybind                                                            | Description                               | 
+| ------------------------------------------------------------------ | ----------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>C</kbd>                  | Launch cava                               |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>,</kbd>                  | Launch cmatrix                            |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>M</kbd>                  | Launch musikcube                          |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>N</kbd>                  | Launch newsboat                           |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd>                  | Launch pipes                              |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>U</kbd>                  | Launch tty-clock                          |
 
 ### Other
 | Keybind                                                        | Description                                   |
