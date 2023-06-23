@@ -61,15 +61,15 @@ dconf dump / > gnome-setting-backup.ini
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
 
-## Importing firefox theme config with UI fix
+## Importing firefox theme config with UI fix 
 1. Go to `about:config`
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - switch to **true**
 3. Download configurations and theme:
 ```
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
-cp ~/downloads/Firefox-UI-Fix/user.js ~/.mozilla/8bejujaq.default-release
-mkdir ~/.mozilla/8bejujaq.default-release/chrome && mv ~/downloads/Firefox-UI-Fix/* ~/.mozilla/8bejujaq.default-release/chrome && rm -rf ~/downloads/Firefox-UI-Fix
-curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.mozilla/8bejujaq.default-release/chrome/userChrome.css
+cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/8bejujaq.default-release
+mkdir ~/.cachy/8bejujaq.default-release/chrome && mv ~/downloads/Firefox-UI-Fix/* ~/.cachy/8bejujaq.default-release/chrome && rm -rf ~/downloads/Firefox-UI-Fix
+curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/8bejujaq.default-release/chrome/userChrome.css
 ```
 3. Click the `Clear startup cache…` at the top of `about:support`
 
@@ -100,15 +100,12 @@ rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
 ls -al ~/.config/foot
 rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
-```
-
-## Importing neovim and emacs theme
-```
-rsync -av ~/downloads/gnome-settings/neovim-theme/.config ~
-ls -al ~/.config/nvim
 rm -rf ~/downloads/gnome-settings
 ```
-**Emacs theme**: `SPC m t` - gruvbox-dark
+#### Other tools themes
+    - Neovim theme is set to gruvbox in Twilight4/dotfiles repository
+    - Emacs theme can be changed by using key combination: `SPC h t`
+    - Cachy Browser theme is changed to gruvbox by imported GTK theme
 
 ## Importing post-installation settings
 ```
