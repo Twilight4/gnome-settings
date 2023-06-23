@@ -242,6 +242,7 @@ rm -rf ~/downloads/gnome-settings
     - `sudo systemctl restart gdm`
     - `sudo systemctl disable gdm`
 2. Use command in virtual console which should make the session functional again: `gnome-restart`
+3. Use killall command: `killall -3 gnome-shell`
 2. Restart the PC
 3. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager:
     - `rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension`
