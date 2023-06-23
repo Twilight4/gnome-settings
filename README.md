@@ -56,7 +56,7 @@ dconf load / < gnome-settings-backup.ini
 dconf dump / > gnome-setting-backup.ini
 ```
 
-## Importing switch-minimized script
+## Importing gnome-specific script
 ```
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
