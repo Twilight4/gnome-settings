@@ -58,8 +58,7 @@ dconf dump / > gnome-setting-backup.ini
 
 ## Importing switch-minimized script
 ```
-rsync -av ~/downloads/gnome-settings/gnome-scripts/.config ~
-ls -al ~/.config/zsh/bash-scripts
+sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
 
 ## Importing firefox theme config with UI fix
@@ -136,7 +135,7 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
 | <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd> | Focus the active notification                 |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type **r** to restart Xorg gnome shell |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type `gnome-restart` to restart gnome shell |
 
 ## Custom keybinds
 ### Tiling-Assistant extension
@@ -242,6 +241,7 @@ rm -rf ~/downloads/gnome-settings
 1. Restart the display manager or try to disabling it - Ctrl+Alt+F2 (or alternative), issue command:
     - `sudo systemctl restart gdm`
     - `sudo systemctl disable gdm`
+2. Use command in virtual console which should make the session functional again: `gnome-restart`
 2. Restart the PC
 3. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager:
     - `rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension`
