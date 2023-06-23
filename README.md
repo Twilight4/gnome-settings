@@ -43,7 +43,7 @@ cd ~/downloads/gnome-settings/gnome-shell-config
 dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
 ```
-go to settings > multitasking and change workspaces to: **fixed number of workspaces**: **4**
+### Go to settings > multitasking and change workspaces to: **fixed number of workspaces**: **4**
 
 ## Importing system settings
 ```
@@ -81,10 +81,7 @@ ls -al ~/.config/autostart
 ```
 ### Change weather location
 1. Go to https://openweathermap.org/ and search your city
-2. Copy the city **ID** from URL and paste it in `city_id` variable
-```
-nvim ~/.config/conky/alshain-mod/scripts/weather-v2.0.sh
-```
+2. Copy the city **ID** from URL and paste it in `city_id` variable in file: `~/.config/conky/alshain-mod/scripts/weather-v2.0.sh`
 
 ## Importing Variety configurations
 ```
@@ -102,7 +99,7 @@ rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
 rm -rf ~/downloads/gnome-settings
 ```
-#### Other tools themes
+### Other tools themes
     - Neovim theme is set to gruvbox in Twilight4/dotfiles repository
     - Emacs theme can be changed by using key combination: `SPC h t`
     - Cachy Browser theme is changed to gruvbox by imported GTK theme
