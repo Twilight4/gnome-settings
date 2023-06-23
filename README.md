@@ -103,7 +103,7 @@ rm -rf ~/downloads/gnome-settings
 ### Other tools themes
   - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
   - **Emacs** theme can be changed by using key combination: `SPC h t`
-  - **Cachy** Browser theme is changed to gruvbox by imported GTK theme
+  - **Cachy Browser** theme is changed to gruvbox by imported GTK theme
 
 ## Importing post-installation settings
 ```
