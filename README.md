@@ -51,7 +51,7 @@ cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings-backup.ini
 ```
 
-### Tip: Exporting system settings
+#### Tip: Exporting system settings
 ```
 dconf dump / > gnome-setting-backup.ini
 ```
