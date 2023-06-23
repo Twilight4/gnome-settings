@@ -56,7 +56,7 @@ dconf load / < gnome-settings-backup.ini
 dconf dump / > gnome-setting-backup.ini
 ```
 
-## Importing gnome-specific script
+## Importing gnome-specific scripts
 ```
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
@@ -99,6 +99,7 @@ rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
 rm -rf ~/downloads/gnome-settings
 ```
+
 ### Other tools themes
     - Neovim theme is set to gruvbox in Twilight4/dotfiles repository
     - Emacs theme can be changed by using key combination: `SPC h t`
