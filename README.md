@@ -238,11 +238,11 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
 
 ## Troubleshooting GNOME session freeze (check after each step if the problem persists)
-1. Restart the display manager or try to disabling it - Ctrl+Alt+F2 (or alternative), issue command:
+1. Restart the display manager or try to disabling it - **Ctrl+Alt+F2** (or alternative), issue command:
     - `sudo systemctl restart gdm`
     - `sudo systemctl disable gdm`
 2. Use command in virtual console which should make the session functional again: `gnome-restart`
-3. Use killall command: `killall -3 gnome-shell`
+3. Use `killall` command: `killall -3 gnome-shell`
 4. Restart the PC
 5. Clear GNOME Shell extensions or lastly installed one in virtual console and then restart display manager:
     - `rm -rf ~/.config/.local/share/gnome-shell/extensions/culprit-extension`
