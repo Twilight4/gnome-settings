@@ -136,14 +136,14 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
 | <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd> | Focus the active notification                 |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt                   |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type **r** to restart gnome shell |
 
 ## Custom keybinds
 ### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Tile Editing Mode                             |
-| <kbd>SUPER</kbd> + <kbd>M</kbd>                    | Toggle 'Always on Top'
+| <kbd>SUPER</kbd> + <kbd>M</kbd>                    | Toggle 'Always on Top'                        |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
 | <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
 | <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
