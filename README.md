@@ -2,7 +2,7 @@
 ## Installing GNOME Package Dependencies and file resources
 ```
 sudo pacman -Syu
-sudo pacman -S gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync variety
+sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync variety
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 
@@ -42,18 +42,20 @@ ls -al ~/.config/.local/share/gnome-shell/extensions
 cd ~/downloads/gnome-settings/gnome-shell-config
 dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
+cd -
 ```
 #### Go to settings > multitasking and change workspaces to: fixed number of workspaces: 4
 
 ## Importing system settings
 ```
 cd ~/downloads/gnome-settings/dconf-settings
-dconf load / < gnome-settings-backup.ini
+dconf load / < gnome-settings.ini
+cd -
 ```
 
 #### Tip: Exporting system settings
 ```
-dconf dump / > gnome-setting-backup.ini
+dconf dump / > gnome-setting.ini
 ```
 
 ## Importing gnome-specific scripts
@@ -97,6 +99,11 @@ rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
 ls -al ~/.config/foot
 rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
+```
+
+## Importing post-installation settings
+```
+~/downloads/gnome-settings/gnome-setup-script/setup.sh
 rm -rf ~/downloads/gnome-settings
 ```
 
@@ -104,11 +111,6 @@ rm -rf ~/downloads/gnome-settings
   - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
   - **Emacs** theme can be changed by using key combination: `SPC h t`
   - **Cachy Browser** theme is changed to gruvbox by imported GTK theme
-
-## Importing post-installation settings
-```
-~/downloads/gnome-settings/gnome-setup-script/setup.sh
-```
 
 # Keybinds
 ## General
