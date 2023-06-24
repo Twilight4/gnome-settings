@@ -45,11 +45,12 @@ dconf load /org/gnome/shell/ < org-gnome-shell.conf
 cd -
 ```
 
-## Importing system settings
+## Importing system settings and applying GTK themes
 ```
 cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings.ini
 cd -
+~/downloads/gnome-settings/gnome-scripts/gtkthemes
 ```
 
 #### Tip: Exporting system settings
