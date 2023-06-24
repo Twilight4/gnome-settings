@@ -43,5 +43,6 @@ echo '
 - Check if DBus service is launched (for kde connect)
     gapplication launch org.gnome.Shell.Extensions.GSConnect
     - if it returns error message then restart the DBus session
+    systemctl --user enable dbus-broker.service
     systemctl --user reload dbus-broker.service
 '
