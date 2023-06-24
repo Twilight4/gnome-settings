@@ -107,7 +107,7 @@ rm -rf ~/downloads/gnome-settings
   - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
   - **Emacs** theme can be changed by using key combination: `SPC h t`
   - **Cachy Browser** theme is changed to gruvbox by imported GTK theme
-  - add pfp to user account
+  - Add profile picture to user account
 
 # Keybinds
 ## General
