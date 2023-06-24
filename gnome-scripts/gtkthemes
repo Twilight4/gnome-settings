@@ -1,0 +1,17 @@
+#!/bin/bash
+
+THEME='Gruvbox-Dark-BL-MOD'
+ICONS='Gruvbox-plus-icon-MOD'
+FONT='Sans 10'
+CURSOR='Gruvbox_Cursors_Light'
+
+SCHEMA='gsettings set org.gnome.desktop.interface'
+
+apply_themes() {
+	${SCHEMA} gtk-theme "$THEME"
+	${SCHEMA} icon-theme "$ICONS"
+	${SCHEMA} cursor-theme "$CURSOR"
+	${SCHEMA} font-name "$FONT"
+}
+
+apply_themes
