@@ -1,5 +1,6 @@
 # Installing League of Legends
 ### Install the launcher titled Standard version for your region in lutris client
+- `./install-lutris.sh` and launch lutris
 - There are two downloads one after the other: the initial client download and the Riot client download. Wait for both downloads to finish.
 - Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished.
 
@@ -32,7 +33,20 @@
     - Select `Runner Options`
     - Check `Enable Fsync` and `Enable Esync` then `Save`
 
-#### If you have critical errors in games try this command
+# Guaranteed problems
+### If you have critical errors in games try this command
 - `sudo sh -c 'sysctl -w abi.vsyscall32=0' && sudo sysctl -w abi.vsyscall32=0`
+
+### Game or client resolution or it is stuck at the lowest resolution
+-  Right Click League of Legends
+-  Select `Configure`
+-  Select `Runner options`
+-  Enable `Windowed (virtual desktop)`
+-  Change `Virtual desktop resolution` to the size of your monitor
+-  Launch the game and in graphics settings change `Window mode` to `Borderless`
+
+#### Gamemode errors
+If you see either one of `ERROR: ld.so: object '/usr/$LIB/libgamemodeauto.so.0' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.` or `ERROR: ld.so: object ‘libgamemodeauto.so.0’ from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.` in your logs.
+- This is a known error and does not have any effect on the performance or ability to play games. It can safely be ignored, and is not considered the cause of inability to play League.
 
 ##### For support visit league of legends wiki - https://leagueoflinux.org/
