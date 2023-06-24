@@ -32,7 +32,7 @@
     - Select `Runner Options`
     - Check `Enable Fsync` and `Enable Esync` then `Save`
 
-If you have critical errors in games try this command
+### If you have critical errors in games try this command
 - `sudo sh -c 'sysctl -w abi.vsyscall32=0' && sudo sysctl -w abi.vsyscall32=0`
 
 ##### For support visit league of legends wiki - https://leagueoflinux.org/
