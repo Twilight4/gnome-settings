@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$HOME/.config/hypr/wallpapers/
+DIR=/usr/share/backgrounds/gruvbox
 PICS=($(ls ${DIR}))
 
 RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
