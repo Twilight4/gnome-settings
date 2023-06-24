@@ -2,7 +2,7 @@
 ## Installing GNOME Package Dependencies and file resources
 ```
 sudo pacman -Syu
-sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync variety
+sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 
@@ -83,12 +83,6 @@ ls -al ~/.config/autostart
 ### Change weather location
 1. Go to https://openweathermap.org/ and search your city
 2. Copy the city **ID** from URL and paste it in `city_id` variable in file: `~/.config/conky/alshain-mod/scripts/weather-v2.0.sh`
-
-## Importing Variety configurations
-```
-rsync -av ~/downloads/gnome-settings/variety/.config ~
-ls -al ~/.config/variety
-```
 
 ## Importing kitty, foot and neofetch themes
 ```
