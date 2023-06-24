@@ -99,6 +99,7 @@ ls -al ~/.config/neofetch
 ```
 sudo cp -r .config/.local/share/icons/Gruvbox-plus-icon-MOD/ /usr/share/icons
 sudo cp -r .config/.local/share/icons/Gruvbox_Cursors_Light /usr/share/icons
+sudo pacman -S gdm-settings  # make sure the proper theme is set change the background image
 ```
 
 ## Importing autostart applications and post-installation settings
