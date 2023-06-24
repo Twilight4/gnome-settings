@@ -22,7 +22,7 @@
     - Add a new override for the library `d3d10` and set it to `Native (Windows)` using the `Edit...` button
     - Add a new override for the library `d3d11` and set it to `Native (Windows)` using the `Edit...` button, then `OK`
 2. Installing **Gamemode** in GNOME
-    - `sudo pacman -S gnome-shell-extension-gamemode-git` - and re-log PC
+    - `sudo pacman -S gnome-shell-extension-gamemode-git` - and re-log to system account
     - Right click League of Legends
     - Select `Configure`
     - Select `System Options`
