@@ -2,11 +2,11 @@
 
 # Check the value of setting to change
 #gsettings get org.gnome.desktop.wm.preferences button-layout
-# Disable minimise, maximise and close buttons from all windows
-gsettings set org.gnome.desktop.wm.preferences button-layout :
+# Disable minimise, maximise and close buttons from all windows - done in dconfsettings
+#gsettings set org.gnome.desktop.wm.preferences button-layout :
 
-# Swap esc with caps key
-gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
+# Swap esc with caps key - done in dconf settings
+#gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
 
 # Add wayland variables to zshenv
 echo '
