@@ -14,3 +14,6 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
 ## If you have problems with games try this command
 #sudo sh -c 'sysctl -w abi.vsyscall32=0' && sudo sysctl -w abi.vsyscall32=0
+
+# For support visit league of legends wiki
+#https://leagueoflinux.org/
