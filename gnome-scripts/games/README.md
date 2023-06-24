@@ -45,8 +45,10 @@
 -  Change `Virtual desktop resolution` to the size of your monitor
 -  Launch the game and in graphics settings change `Window mode` to `Borderless`
 
-#### Gamemode errors
-If you see either one of `ERROR: ld.so: object '/usr/$LIB/libgamemodeauto.so.0' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.` or `ERROR: ld.so: object ‘libgamemodeauto.so.0’ from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.` in your logs.
-- This is a known error and does not have any effect on the performance or ability to play games. It can safely be ignored, and is not considered the cause of inability to play League.
+### Gamemode errors
+If you see either one of: 
+- `ERROR: ld.so: object '/usr/$LIB/libgamemodeauto.so.0' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.` or 
+- `ERROR: ld.so: object ‘libgamemodeauto.so.0’ from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.` in your logs
+    - This is a known error and does not have any effect on the performance or ability to play games. It can safely be ignored, and is not considered the cause of inability to play League.
 
 ##### For support visit league of legends wiki - https://leagueoflinux.org/
