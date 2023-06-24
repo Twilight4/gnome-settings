@@ -94,8 +94,10 @@ rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
 ```
 
-## Importing post-installation settings
+## Importing autostart applications and post-installation settings
 ```
+rsync -av ~/downloads/gnome-settings/autostart/.config ~
+ls -al ~/.config/autostart
 ~/downloads/gnome-settings/gnome-setup-script/setup.sh
 rm -rf ~/downloads/gnome-settings
 ```
