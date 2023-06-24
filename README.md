@@ -2,7 +2,7 @@
 ## Installing GNOME Package Dependencies and file resources
 ```
 sudo pacman -Syu
-sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync
+sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync swaybg
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 
