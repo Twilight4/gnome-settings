@@ -95,6 +95,12 @@ rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
 ```
 
+## Copying themes to system-wide for GDM recognition
+```
+sudo cp -r .config/.local/share/icons/Gruvbox-plus-icon-MOD/ /usr/share/icons
+sudo cp -r .config/.local/share/icons/Gruvbox_Cursors_Light /usr/share/icons
+```
+
 ## Importing autostart applications and post-installation settings
 ```
 rsync -av ~/downloads/gnome-settings/autostart/.config ~
