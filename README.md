@@ -58,7 +58,7 @@ cd -
 dconf dump / > gnome-setting.ini
 ```
 
-## Importing gnome-specific scripts
+## Importing GNOME scripts
 ```
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
