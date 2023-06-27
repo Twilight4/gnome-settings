@@ -3,9 +3,9 @@
 # Toggle VPN
 if [ $(ip a s | grep tun0 | grep inet | awk '{print $2;}' | cut -d . -f2 | tr -d '\n' | wc -c) -eq 0 ]; then
   notify-send -t 4000 "VPN is active"
-	kitty -1 -a kitty-vpn -e sudo openvpn ~/downloads/starting_point_twilightt.ovpn
+	kitty -1 --class kitty-vpn -T kitty-vpn -e sudo openvpn ~/downloads/starting_point_twilightt.ovpn
 elif [ $(ip a s | grep tun0 | grep inet | awk '{print $2;}' | cut -d . -f2 | tr -d '\n' | wc -c) -eq 2 ]; then
-  kill -9 $(ps aux | grep footvpn)
+  kill -9 $(ps aux | grep kitty-vpn)
   notify-send -t 4000 "VPN is down"
 fi
 
