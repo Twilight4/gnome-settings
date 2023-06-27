@@ -85,7 +85,7 @@ ls -al ~/.config/autostart
 1. Go to https://openweathermap.org/ and search your city
 2. Copy the city **ID** from URL and paste it in `city_id` variable in file: `~/.config/conky/alshain-mod/scripts/weather-v2.0.sh`
 
-## Importing kitty, foot and neofetch themes
+## Importing CLI tools themes: kitty, foot, btop and neofetch
 ```
 rsync -av ~/downloads/gnome-settings/kitty-theme/.config ~
 ls -al ~/.config/kitty
@@ -93,6 +93,8 @@ rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
 ls -al ~/.config/foot
 rsync -av ~/downloads/gnome-settings/neofetch-theme/.config ~
 ls -al ~/.config/neofetch
+rsync -av ~/downloads/gnome-settings/btop-theme/.config ~
+ls -al ~/.config/btop
 ```
 
 ## Copying themes to system-wide for GDM recognition
