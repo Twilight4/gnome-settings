@@ -63,7 +63,7 @@ dconf dump / > gnome-setting.ini
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
 
-## Importing firefox theme config with UI fix 
+## Importing firefox custom UI configurations
 1. Go to `about:config`
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - switch to **true**
 3. Download configurations and theme:
@@ -113,7 +113,7 @@ rm -rf ~/downloads/gnome-settings
 ### Other tweaks/themes
   - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
   - **Emacs** theme can be changed by using key combination: `SPC h t`
-  - **Cachy Browser** theme is changed to gruvbox by imported GTK theme
+  - **Cachy Browser** theme is changed to gruvbox GTK theme
   - Add profile picture to user account
 
 # Keybinds
