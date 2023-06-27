@@ -97,7 +97,7 @@ rsync -av ~/downloads/gnome-settings/btop-theme/.config ~
 ls -al ~/.config/btop
 ```
 
-## Copying themes to system-wide for GDM recognition
+## Copying GTK themes to system-wide location for GDM recognition
 ```
 sudo cp -r ~/.config/.local/share/icons/Gruvbox-plus-icon-MOD/ /usr/share/icons
 sudo cp -r ~/.config/.local/share/icons/Gruvbox_Cursors_Light /usr/share/icons
