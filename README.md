@@ -233,12 +233,23 @@ rm -rf ~/downloads/gnome-settings
 ### Custom-set keybinds
 | Keybind                                                            | Description                               | 
 | ------------------------------------------------------------------ | ----------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd>                 | Activate Caffeine for 30mins              |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd>                 | Launch athena welcome menu                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Y</kbd>                 | Launch variables menu                     |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>U</kbd>                 | Launch role viewer                        |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>M</kbd>  | Update mirrors                         |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>U</kbd>  | Update system                          |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>ESC</kbd>               | Launch gnome usage                        |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Z</kbd>                 | Launch webcam                             |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>C</kbd>                  | Launch cava                               |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>,</kbd>                  | Launch cmatrix                            |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>M</kbd>                  | Launch musikcube                          |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>N</kbd>                  | Launch newsboat                           |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>F</kbd>                  | Launch neofetch                           |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd>                  | Launch pipes                              |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>G</kbd>                  | Launch glances                            |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>U</kbd>                  | Launch tty-clock                          |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>V</kbd>                   | Toggle VPN                                |
 
 ### Other
 | Keybind                                                        | Description                                   |
