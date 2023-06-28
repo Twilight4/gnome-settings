@@ -70,16 +70,16 @@ sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/8bejujaq.default-release
-mkdir ~/.cachy/8bejujaq.default-release/chrome && cp ~/downloads/Firefox-UI-Fix/* ~/.cachy/8bejujaq.default-release/chrome
+mkdir ~/.cachy/8bejujaq.default-release/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/8bejujaq.default-release/chrome
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/8bejujaq.default-release/chrome/userChrome.css
 ```
 4. Repeat this to the rest of your profiles if you have any:
 ```
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/dyxi7uyz.WORK
-mkdir ~/.cachy/dyxi7uyz.WORK/chrome && cp ~/downloads/Firefox-UI-Fix/* ~/.cachy/dyxi7uyz.WORK/chrome
+mkdir ~/.cachy/dyxi7uyz.WORK/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/dyxi7uyz.WORK/chrome
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/dyxi7uyz.WORK/chrome/userChrome.css
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/0txx7bz9.OSINT
-mkdir ~/.cachy/0txx7bz9.OSINT/chrome && cp ~/downloads/Firefox-UI-Fix/* ~/.cachy/0txx7bz9.OSINT/chrome && rm -rf ~/downloads/Firefox-UI-Fix
+mkdir ~/.cachy/0txx7bz9.OSINT/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/0txx7bz9.OSINT/chrome && rm -rf ~/downloads/Firefox-UI-Fix
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/0txx7bz9.OSINT/chrome/userChrome.css
 ```
 5. Click the `Clear startup cache…` at the top of `about:support`
