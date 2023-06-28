@@ -73,7 +73,7 @@ cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/8bejujaq.default-release
 mkdir ~/.cachy/8bejujaq.default-release/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/8bejujaq.default-release/chrome
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/8bejujaq.default-release/chrome/userChrome.css
 ```
-4. Repeat this to the rest of your profiles if you have any:
+4. Repeat this step to the rest of your profiles if you have any:
 ```
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/dyxi7uyz.WORK
 mkdir ~/.cachy/dyxi7uyz.WORK/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/dyxi7uyz.WORK/chrome
