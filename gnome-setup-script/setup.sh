@@ -1,12 +1,16 @@
 #!/bin/bash
 
+# These settings are already applied by dconf-settings
+
 # Check the value of setting to change
 #gsettings get org.gnome.desktop.wm.preferences button-layout
 
-# Disable minimise, maximise and close buttons from all windows - done in dconfsettings
+# Disable minimise, maximise and close buttons from all windows
 #gsettings set org.gnome.desktop.wm.preferences button-layout :
+# Change back to default value:
+#gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
 
-# Swap esc with caps key - done in dconf settings
+# Swap esc with caps key
 #gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
 
 # Add wayland variables to zshenv
@@ -38,7 +42,6 @@ export MOZ_DBUS_REMOTE=1
 export BEMENU_BACKEND=wayland
 export ECORE_EVAS_ENGINE=wayland_egl
 export ELM_ENGINE=wayland_egl' >> ~/.config/zsh/.zshenv
-
 
 echo '
 - Check if DBus service is launched (for kde connect)
