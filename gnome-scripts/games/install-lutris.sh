@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Installing lutris client
 sudo pacman -S --noconfirm --needed lutris
