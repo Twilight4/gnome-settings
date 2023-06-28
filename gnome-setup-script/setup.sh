@@ -2,6 +2,7 @@
 
 # Check the value of setting to change
 #gsettings get org.gnome.desktop.wm.preferences button-layout
+
 # Disable minimise, maximise and close buttons from all windows - done in dconfsettings
 #gsettings set org.gnome.desktop.wm.preferences button-layout :
 
