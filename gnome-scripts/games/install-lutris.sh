@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installing lutris client
-sudo pacman -S --noconfirm --needed lutris
+sudo pacman -S --noconfirm --needed lutris-git
 # Installing drivers for Vulkan API - AMD GPUs
 sudo pacman -S --noconfirm --needed lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
 # Installing Wine Dependencies
