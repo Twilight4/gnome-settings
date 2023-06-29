@@ -1,13 +1,13 @@
 # GNOME - Aesthetic Gruvbox Dark Color Theme Setup
 ## Installing GNOME Package Dependencies and file resources
-```
+```bash
 sudo pacman -Syu
 sudo pacman -S --needed gnome-tweak-tool gnome-extensions-app extension-manager kitty neofetch git conky jq curl rsync
 git clone https://github.com/Twilight4/gnome-settings ~/downloads/gnome-settings
 ```
 
 ## Installing GTK theme
-```
+```bash
 rsync -av ~/downloads/gnome-settings/themes/.config ~
 ls -al ~/.config/.local/share/themes
 ln -s ~/.config/.local/share/themes/Gruvbox-Dark-BL-MOD/gtk-4.0/assets ~/.config/gtk-4.0
@@ -16,7 +16,7 @@ ln -s ~/.config/.local/share/themes/Gruvbox-Dark-BL-MOD/gtk-4.0/gtk-dark.css ~/.
 ```
 
 ## Installing icons and cursor theme
-```
+```bash
 rsync -av ~/downloads/gnome-settings/icons/.config ~
 ls -al ~/.config/.local/share/icons
 rsync -av ~/downloads/gnome-settings/cursors/.config ~ 
@@ -24,7 +24,7 @@ ls -al ~/.config/.local/share/icons
 ```
 
 ## Installing fonts and wallpapers
-```
+```bash
 rsync -av ~/downloads/gnome-settings/fonts/.config ~
 ls -al ~/.config/.local/share/fonts
 sudo rsync -av ~/downloads/gnome-settings/wallpapers/usr /
@@ -32,13 +32,13 @@ ls -al /usr/share/backgrounds/gruvbox
 ```
 
 ## Installing GNOME extensions
-```
+```bash
 rsync -av ~/downloads/gnome-settings/gnome-extensions/.config ~
 ls -al ~/.config/.local/share/gnome-shell/extensions
 ```
 
 ## Importing GNOME shell configurations
-```
+```bash
 cd ~/downloads/gnome-settings/gnome-shell-config
 dconf load /org/gnome/desktop/ < org-gnome-desktop.conf
 dconf load /org/gnome/shell/ < org-gnome-shell.conf
@@ -46,7 +46,7 @@ cd -
 ```
 
 ## Importing system settings and applying GTK themes
-```
+```bash
 cd ~/downloads/gnome-settings/dconf-settings
 dconf load / < gnome-settings.ini
 cd -
@@ -54,12 +54,12 @@ cd -
 ```
 
 #### Tip: Exporting system settings
-```
+```bash
 dconf dump / > gnome-setting.ini
 ```
 
 ## Importing GNOME scripts
-```
+```bash
 sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 ```
 
@@ -67,14 +67,14 @@ sudo mv ~/downloads/gnome-settings/gnome-scripts/* /usr/bin
 1. Go to `about:config`
 2. Search for: `toolkit.legacyUserProfileCustomizations.stylesheets` - switch to **true**
 3. Download configurations and theme:
-```
+```bash
 git clone https://github.com/black7375/Firefox-UI-Fix.git ~/downloads/Firefox-UI-Fix
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/8bejujaq.default-release
 mkdir ~/.cachy/8bejujaq.default-release/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/8bejujaq.default-release/chrome
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/8bejujaq.default-release/chrome/userChrome.css
 ```
 4. Repeat this step to the rest of your profiles if you have any:
-```
+```bash
 cp ~/downloads/Firefox-UI-Fix/user.js ~/.cachy/dyxi7uyz.WORK
 mkdir ~/.cachy/dyxi7uyz.WORK/chrome && cp -r ~/downloads/Firefox-UI-Fix/* ~/.cachy/dyxi7uyz.WORK/chrome
 curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.css >> ~/.cachy/dyxi7uyz.WORK/chrome/userChrome.css
@@ -85,7 +85,7 @@ curl -s https://codeberg.org/Freeplay/Firefox-Onebar/raw/branch/main/userChrome.
 5. Click the `Clear startup cache…` at the top of `about:support`
 
 ## Importing conky configurations
-```
+```bash
 rsync -av ~/downloads/gnome-settings/conky-config/.config ~
 ls -al ~/.config/conky
 ls -al ~/.config/autostart
@@ -95,7 +95,7 @@ ls -al ~/.config/autostart
 2. Copy the city **ID** from URL and paste it in `city_id` variable in file: `~/.config/conky/alshain-mod/scripts/weather-v2.0.sh`
 
 ## Importing CLI tools themes: kitty, foot, btop and neofetch
-```
+```bash
 rsync -av ~/downloads/gnome-settings/kitty-theme/.config ~
 ls -al ~/.config/kitty
 rsync -av ~/downloads/gnome-settings/foot-theme/.config ~
@@ -107,13 +107,13 @@ ls -al ~/.config/btop
 ```
 
 ## Copying GTK themes to system-wide location for GDM recognition
-```
+```bash
 sudo cp -r ~/.config/.local/share/icons/Gruvbox-plus-icon-MOD/ /usr/share/icons
 sudo cp -r ~/.config/.local/share/icons/Gruvbox_Cursors_Light /usr/share/icons
 ```
 
 ## Importing autostart applications and post-installation settings
-```
+```bash
 rsync -av ~/downloads/gnome-settings/autostart/.config ~
 ls -al ~/.config/autostart
 ~/downloads/gnome-settings/gnome-setup-script/setup.sh
