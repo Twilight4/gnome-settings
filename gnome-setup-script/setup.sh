@@ -43,6 +43,10 @@ export BEMENU_BACKEND=wayland
 export ECORE_EVAS_ENGINE=wayland_egl
 export ELM_ENGINE=wayland_egl' >> ~/.config/zsh/.zshenv
 
+# Enable Firewall blocking kdeconnect port
+sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect 
+sudo firewall-cmd --reload
+
 echo '
 - Check if DBus service is launched (for kde connect)
     gapplication launch org.gnome.Shell.Extensions.GSConnect
