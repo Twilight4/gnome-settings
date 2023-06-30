@@ -55,7 +55,7 @@ cd -
 
 #### Tip: Exporting system settings
 ```bash
-dconf dump / > gnome-setting.ini
+dconf dump / > gnome-settings.ini
 ```
 
 ## Importing GNOME scripts
