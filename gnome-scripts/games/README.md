@@ -5,7 +5,7 @@
 3. Search and install League of Legends by clicking at the plus icon
 #### Caveats
 - There are two downloads one after the other: the initial client download and the Riot client download. Wait for both downloads to finish.
-- Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished.
+- Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished in btop search for: **league** and kill the process.
 
 # Optimising League of Legends
 1. Enable low spec mode in league client
