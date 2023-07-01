@@ -140,13 +140,11 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>D</kbd>                    | Dashboard menu                                |
 | <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Hide window                                   |
 | <kbd>SUPER</kbd> + <kbd>P</kbd>                    | Displays/Monitors menu                        |
-| <kbd>SUPER</kbd> + <kbd>Z</kbd>                    | Resize window                                 |
 | <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | Switch applications                           |
 | <kbd>ALT</kbd> + <kbd>ESC</kbd>                    | Switch windows directly                       |
 | <kbd>ALT</kbd> + <kbd>TAB</kbd>                    | Switch windows on current workspace           |
 | <kbd>SUPER</kbd> + <kbd>backtick</kbd>             | Switch windows of an application              |
-| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the notification list                    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>N</kbd> | Focus the active notification                 |
+| <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the calendar widget                      |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type `gnome-restart` to restart gnome shell |
 
 ## Extension keybinds
