@@ -151,7 +151,7 @@ rm -rf ~/downloads/gnome-settings
 ### Tiling-Assistant extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Tile Editing Mode                             |
+| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Toggle Editing Mode                           |
 | <kbd>SUPER</kbd> + <kbd>M</kbd>                    | Toggle 'Always on Top'                        |
 | <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
 | <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
@@ -168,11 +168,11 @@ rm -rf ~/downloads/gnome-settings
 ### Tiling-Assistant - editing mode
 | Keybind                                                        | Description                                   |
 | -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>h/j/k/l</kbd>                                             | Navigate focus                                |
-| <kbd>CTRL</kbd> + <kbd>h/j/k/l</kbd>                           | Swaps the highlighted windows                 |
-| <kbd>SHIFT</kbd> + <kbd>h/j/k/l</kbd>                          | Moves the tile group to the monitor           |
-| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>h/j/k/l</kbd>         | Moves the tile group to the workspace         |
-| <kbd>SUPER</kbd> + <kbd>h/j/k/l</kbd>                          | Resizes the highlighted window                |
+| <kbd>H/J/K/L</kbd>                                             | Navigate focus                                |
+| <kbd>CTRL</kbd> + <kbd>H/J/K/L</kbd>                           | Swaps the highlighted windows                 |
+| <kbd>SHIFT</kbd> + <kbd>H/J/K/L</kbd>                          | Moves the tile group to the monitor           |
+| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>H/J/K/L</kbd>         | Moves the tile group to the workspace         |
+| <kbd>SUPER</kbd> + <kbd>H/J/K/L</kbd>                          | Resizes the highlighted window                |
 | <kbd>Q</kbd>                                                   | Quits the highlighted window                  |
 | <kbd>R</kbd>                                                   | Restores the highlighted window               |
 | <kbd>E</kbd>                                                   | Expands the highlighted window                |
