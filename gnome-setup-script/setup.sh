@@ -41,7 +41,10 @@ export MOZ_DISABLE_RDD_SANDBOX=1                      # Disable RDD sandbox in f
 export MOZ_DBUS_REMOTE=1
 export BEMENU_BACKEND=wayland
 export ECORE_EVAS_ENGINE=wayland_egl
-export ELM_ENGINE=wayland_egl' >> ~/.config/zsh/.zshenv
+export ELM_ENGINE=wayland_egl' >> $HOME/.config/zsh/.zshenv
+
+# Change nnn file manager colors
+sed -i '85s/^#//' $HOME/.config/zsh/.zshenv
 
 # Enable Firewall blocking kdeconnect port
 sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect 
