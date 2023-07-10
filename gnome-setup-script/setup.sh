@@ -44,7 +44,10 @@ export ECORE_EVAS_ENGINE=wayland_egl
 export ELM_ENGINE=wayland_egl' >> $HOME/.config/zsh/.zshenv
 
 # Change nnn file manager colors
-sed -i '85s/^#//' $HOME/.config/zsh/.zshenv
+sed -i "/export NNN_FCOLORS='00000E6310000000000000000'/s/^#//" $HOME/.config/zsh/.zshenv
+
+# enable x11 display server in kitty for better rendering
+sed -i '/#linux_display_server x11/s/^#//' -i '/linux_display_server wayland/s/^/#/' $HOME/.config/kitty/kitty.conf
 
 # Enable Firewall blocking kdeconnect port
 sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect 
