@@ -6,6 +6,8 @@
 #### Caveats
 - There are two downloads one after the other: the initial client download and the Riot client download. Wait for both downloads to finish.
 - Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished in btop search for: **league** and kill the process.
+### Installing League of Legends via leagueoflegends-git
+##### Helper script for installing and running League of Legends on Linux: https://github.com/kyechou/leagueoflegends
 
 # Optimising League of Legends
 1. Enable low spec mode in league client
