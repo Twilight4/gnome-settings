@@ -188,7 +188,7 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>               | Previous entry                                |
 | <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>N</kbd>               | Next entry                                    |
 
-### Dash to Dock extension - TODO
+### Dash to Dock extension
 | Keybind                                            | Description                                   |
 | -------------------------------------------------- | --------------------------------------------- |
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Hide app 1                                    |
