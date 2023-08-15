@@ -1,12 +1,12 @@
 # Installing League of Legends
-### Install the launcher titled Standard version for your region in lutris client
+### Option 1: Installing League of Legends using lutris
 1. `./install-lutris.sh` 
 2. Launch lutris and log in
-3. Search and install League of Legends by clicking at the plus icon
+3. Search for Leauge of Legends, by clicking at the "+" icon and choose Standard version for your region
 #### Caveats
 - There are two downloads one after the other: the initial client download and the Riot client download. Wait for both downloads to finish.
 - Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished in btop search for: **league** and kill the process.
-### Installing League of Legends via leagueoflegends-git
+### Option 2: Installing League of Legends via leagueoflegends-git
 - Helper script for installing and running League of Legends on Linux: https://github.com/kyechou/leagueoflegends
 
 # Optimising League of Legends
