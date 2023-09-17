@@ -69,6 +69,7 @@ rsync -av ~/downloads/gnome-settings/conky-config/.config ~
 ls -al ~/.config/conky
 ls -al ~/.config/autostart
 ```
+
 ### Change weather location
 1. Go to https://openweathermap.org/ and search your city
 2. Copy the city **ID** from URL and paste it in `city_id` variable in file: `~/.config/conky/alshain-mod/scripts/weather-v2.0.sh`
