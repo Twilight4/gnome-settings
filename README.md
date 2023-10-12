@@ -102,7 +102,7 @@ rm -rf ~/downloads/gnome-settings
 
 ### Other tweaks/themes
   - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
-  - **Emacs** theme can be changed by using key combination: `SPC h t`
+  - **Emacs** theme can be changed by using key command `load-theme`
   - **Firefox** theme is changed to gruvbox GTK theme
   - **GDM** theme and settings are set to gruvbox in dconf database but you can always change them using `gdm-settings` app
   - Add profile picture to user account
