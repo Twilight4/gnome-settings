@@ -248,7 +248,7 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>SPACE</kbd>         | Switch to previous input source               |
 | <kbd>SUPER</kbd> + <kbd>F1</kbd>                               | Launch help browser                           |
 
-## Troubleshooting GNOME session freeze (check after each step if the problem persists)
+## Troubleshooting GNOME session freeze
 1. Restart the display manager or try to disabling it - **Ctrl+Alt+F2** (or alternative), issue command:
     - `sudo systemctl restart gdm`
     - `sudo systemctl disable gdm`
