@@ -8,6 +8,7 @@
 - Do not enter your login details and login or click play. Instead, just quit the launcher when the two downloads have finished in btop search for: **league** and kill the process.
 ### Option 2: Installing League of Legends via leagueoflegends-git
 - Helper script for installing and running League of Legends on Linux: https://github.com/kyechou/leagueoflegends
+- CachyOS guide for Gaming: https://wiki.cachyos.org/general_info/gaming/
 
 # Optimising League of Legends
 1. Enable low spec mode in league client
