@@ -36,7 +36,7 @@ ls -al /usr/share/backgrounds/gruvbox
 ## Installing GNOME extensions
 ```bash
 rsync -av ~/downloads/gnome-settings/gnome-extensions/.config ~
-ls -al ~/.config/.local/share/gnome-shell/extensions
+cat ~/.config/.local/share/gnome-shell/extensions/extensions.txt
 ```
 
 ## Importing GNOME shell configurations
