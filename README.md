@@ -102,12 +102,12 @@ ls -al ~/.config/autostart
 rm -rf ~/downloads/gnome-settings
 ```
 
-### Other tweaks/themes
-  - **Neovim** theme is set to gruvbox in **Twilight4/dotfiles** repository
-  - **Emacs** theme can be changed by using key command `load-theme`
+### Other customization options
+  - **Neovim** theme can be changed to gruvbox
+  - **Emacs** theme can be changed by using command `load-theme`
   - **Firefox** theme is changed to gruvbox GTK theme
   - **GDM** theme and settings are set to gruvbox in dconf database but you can always change them using `gdm-settings` app
-  - Add profile picture to user account
+  - User account's pfp can be set
 
 # Keybinds
 ## General
