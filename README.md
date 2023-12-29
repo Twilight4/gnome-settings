@@ -129,67 +129,6 @@ rm -rf ~/downloads/gnome-settings
 | <kbd>SUPER</kbd> + <kbd>N</kbd>                    | Show the calendar widget                      |
 | <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd> | Show the run command prompt - type `gnome-restart` to restart gnome shell |
 
-## Extension keybinds
-### Tiling-Assistant extension
-| Keybind                                            | Description                                   |
-| -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Toggle Editing Mode                           |
-| <kbd>SUPER</kbd> + <kbd>M</kbd>                    | Toggle 'Always on Top'                        |
-| <kbd>SUPER</kbd> + <kbd>F</kbd>                    | Toggle Maximization                           |
-| <kbd>SUPER</kbd> + <kbd>R</kbd>                    | Restore Window Size                           |
-| <kbd>SUPER</kbd> + <kbd>C</kbd>                    | Move Window to Center                         |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>K</kbd> | Tile to top                                   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>J</kbd> | Tile to bottom                                |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tile to left                                  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>L</kbd> | Tile to right                                 |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>J</kbd>  | Tile to top-left                              |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>K</kbd>  | Tile to top-right                             |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>H</kbd>  | Tile to bottom-left                           |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>L</kbd>  | Tile to bottom-right                          |
-
-### Tiling-Assistant - editing mode
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>H/J/K/L</kbd>                                             | Navigate focus                                |
-| <kbd>CTRL</kbd> + <kbd>H/J/K/L</kbd>                           | Swaps the highlighted windows                 |
-| <kbd>SHIFT</kbd> + <kbd>H/J/K/L</kbd>                          | Moves the tile group to the monitor           |
-| <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>H/J/K/L</kbd>         | Moves the tile group to the workspace         |
-| <kbd>SUPER</kbd> + <kbd>H/J/K/L</kbd>                          | Resizes the highlighted window                |
-| <kbd>Q</kbd>                                                   | Quits the highlighted window                  |
-| <kbd>R</kbd>                                                   | Restores the highlighted window               |
-| <kbd>E</kbd>                                                   | Expands the highlighted window                |
-| <kbd>C</kbd>                                                   | Cycles through the half-sized tiling states   |
-| <kbd>SPACE</kbd>                                               | Opens the tiling popup                        |
-| <kbd>Esc/Return</kbd>                                          | Leaves the tile editing mode                  |
-
-### Clipboard Indicator extension
-| Keybind                                                        | Description                                   |
-| -------------------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                                | Show the clipboard menu                       |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>             | Clear the clipboard history                   |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>               | Previous entry                                |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>N</kbd>               | Next entry                                    |
-
-### Dash to Dock extension
-| Keybind                                            | Description                                   |
-| -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>1<kbd>  | Hide app 1                                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>2<kbd>  | Hide app 2                                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>3<kbd>  | Hide app 3                                    |
-| <kbd>SHIFT</kbd> + <kbd>SUPER</kbd> + <kbd>4<kbd>  | Hide app 4                                    |
-| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>1<kbd>   | Launch app 1                                  |
-| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>2<kbd>   | Launch app 2                                  |
-| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>3<kbd>   | Launch app 3                                  |
-| <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>4<kbd>   | Launch app 4                                  |
-
-### Focus changer extension
-| Keybind                                            | Description                                   |
-| -------------------------------------------------- | --------------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>H</kbd>                    | Focus left                                    |
-| <kbd>SUPER</kbd> + <kbd>J</kbd>                    | Focus down                                    |
-| <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Focus up                                      |
-| <kbd>SUPER</kbd> + <kbd>L</kbd>                    | Focus right                                   |
-
 ## Default keybinds
 ### Accessibility
 | Keybind                                                        | Description                                   |
